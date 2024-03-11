@@ -1,6 +1,6 @@
 package Arrays1;
 
-public class Arrays1 {
+public class Arrays_for {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,7 +8,7 @@ public class Arrays1 {
 		
 		
 //---- 1 FORMA DE DECLARAR ---------------------------------------------------------
-		//declaro en memoria
+		//declaro en memoria el valor de la variable q cada elemento se reservan con su index
 		String [] names = new String[4];
 		
 		//declaro la variable en el array
@@ -23,12 +23,12 @@ public class Arrays1 {
 		System.out.println("--------------------------------------------------------------");
 		
 //----****** 2º FORMA DE DECLARAR SIMPLIFICADA ***********-------------------------------------------
-		int[] number = {2, 4, 6, 8};
+		int[] number = {2, 4, 6, 8};  //almacena y reinicilaiza 
 		
 		//******* imprimir SIMPLIFICANDO todos los valores de los elementos de la matriz ******
-		System.out.println("---- imprimir SIMPLIFICANDO SIN FOR: (int element : number)   los elementos de la matriz ----- ");
-		int sum = 0;
-		for(int element : number) {
+		System.out.println("---- imprimir SIMPLIFICANDO SIN FOR: (int element : number)  recorre los elementos de la matriz ----- ");
+		int sum = 0; //declaramos e inicializamos a 0
+		for(int element : number) { 
 			sum += element;
 		}
 		System.out.println("La suma es: " + sum);
