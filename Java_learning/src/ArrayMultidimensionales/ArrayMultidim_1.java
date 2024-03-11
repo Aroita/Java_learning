@@ -100,12 +100,7 @@ public class ArrayMultidim_1 {
 		clonar3[0][1]= 8;  //modifico clonar3
 		System.out.println(Arrays.deepToString(clonar1));
 		System.out.println(Arrays.deepToString(clonar3));
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
