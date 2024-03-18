@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Array_MathRandom {
 	
-	//GENERAR 10 NUMEROS Y PASARLE UNA FUNCION PARA ORDENARLOS
+	//2.GENERAR 10 NUMEROS Y PASARLE UNA FUNCION PARA ORDENARLOS
 	
 	//funcion
 	public static void ordenarArray(int [] a) {

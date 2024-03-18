@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Array1_funciones {
 	
+    //1.ARRAY QUE RELLENE NUMEROS ENTEROS POR TECLADO. CALCULAR MEDIA Y Nº MAS ALTO
 	//funcion para pasar la media
 	public static int calcularMedia(int[] a) {
     	int media =0;
@@ -33,7 +34,7 @@ public class Array1_funciones {
         // TODO Auto-generated method stub
         
         //array objeto //declaramos el array y reservamos las posiciones
-        int[] array = new int[10];  
+        int[] array = new int[5];  
         
         Scanner scanner = new Scanner(System.in);
         
