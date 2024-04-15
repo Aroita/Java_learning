@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Array1_funciones {
 	
-	//funcion para pasar la media
+	//funcion para pasar la media 
 	public static int calcularMedia(int[] a) {
     	int media =0;
     	
@@ -51,6 +51,7 @@ public class Array1_funciones {
        
         //llamar a las funcion numAlto:
         System.out.println("El nº mas alto es: " + numAlto(array));
+        System.out.println("fin: " );
         
         
         scanner.close();
